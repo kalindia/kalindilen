@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta lang="en-Us">
+	<title>Brightness </title>
+</head>
+<body>
+<h1>Images Effect App</h1>
+<div id="big-box">
+<img src="h.jpg" alt="h" width="500" height="396" id="pic" onclick="bright_effect()"><span id="hint"></span><i class="fa fa-spinner fa-spin fa-3x fa-fw" id="loader" style="font-size:18px; opacity: 0;"></i>
+<i class="fa fa-check" style="opacity:0; padding:10px;" id="icon"></i>	
+<div id="effect-box">
+<b>Brightness</b>
+<input type="range" min="0" max="150" id="brightness" oninput="bright()">	
+<b>Contrast</b>
+<input type="range" min="0" max="400" id="contrast" oninput="contrast()">
+<b>Saturate</b>
+<input type="range" min="0" max="400" id="saturate" oninput="saturate()">
+<p id="result"></p>
+</div>                                  
+</div>
+<script src="script.js" ></script>
+</body>
+</html>

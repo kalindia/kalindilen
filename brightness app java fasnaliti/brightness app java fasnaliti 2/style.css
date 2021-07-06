@@ -1,0 +1,28 @@
+@charset"utf-8";
+
+
+#big-box{
+width:500px;
+	height:396px;
+	margin:100px auto;
+	border:10px groove crimson;      
+}
+
+
+
+h1{
+	text-align:center;
+	font-family:centugry gothic;
+	font-size:30px;
+	color:pink;
+	margin:10px;     
+}
+
+#effect-box{
+	width:500px;
+	height:70px;
+	background:#ddd;
+	padding:10px;
+	display:none;      
+
+}

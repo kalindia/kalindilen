@@ -1,0 +1,33 @@
+@charset"utf-8";
+
+
+#box{
+	width:500px;
+	height:396px;
+	margin:100px auto;
+	border:10px groove skyblue;      
+}
+
+
+h1{
+	text-align:center;
+	font-family:centugry gothic;
+	font-size:30px;
+	color:pink;
+	margin:10px;     
+}
+
+#box-effet{
+	width:500px;
+	height:50px;
+	background:#ddd;
+	margin-top:11px;
+	padding:10px;     
+}
+
+#icon{
+	float:left;
+	font-size: 25px;
+	padding:10px;
+	display:none;    
+}
